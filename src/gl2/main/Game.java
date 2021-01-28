@@ -36,7 +36,7 @@ public class Game implements Runnable {
 	}
 
 	/**
-	 * Creates
+	 * Creates a new Game
 	 */
 
 	public Game() {
@@ -67,7 +67,7 @@ public class Game implements Runnable {
 	 */
 	protected void init() {
 		// Standard stuff, should not be modified (begin)
-		window = new Window("Game Library 2.0", 1920, 1080);
+		window = new Window("Game Library 2.0", 1920 / 2, 1080 / 2);
 		handler = new Handler();
 		// Add Swing components
 		window.getCanvas().addKeyListener(new KeyManager());

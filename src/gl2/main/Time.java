@@ -73,7 +73,7 @@ public enum Time {
 	/**
 	 * Use this function to scale the game speed. <br>
 	 * Values above 1 will speed up the game, whilst values between 1 and 0 will
-	 * slow down the game. If you wish to pause the game, use {@link #timeScale}
+	 * slow down the game. If you wish to pause the game, set {@link #timeScale} to 0
 	 * instead.
 	 * 
 	 * @param scalar
